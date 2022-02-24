@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class SumOfDigitsProgram {
 
-   public static int numberSum(int number) {
+   public static int digitSum(int number) {
       // declare variables
       int lastDigit = 0;
       int sum = 0;
@@ -39,7 +39,7 @@ public class SumOfDigitsProgram {
       number = scan.nextInt();
 
       // find sum of digits of number
-      sumOfDigits = numberSum(number);
+      sumOfDigits = digitSum(number);
 
       // display result
       System.out.println("The sum of digits of" +
