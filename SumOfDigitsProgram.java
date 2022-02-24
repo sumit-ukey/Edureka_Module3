@@ -39,7 +39,7 @@ public class SumOfDigitsProgram {
       number = scan.nextInt();
 
       // find sum of digits of number
-      sumOfDigits = digitSum(number);
+      sumOfDigits = numberSum(number);
 
       // display result
       System.out.println("The sum of digits of" +
